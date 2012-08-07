@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg3172"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="tank.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
+  <defs
+     id="defs3174">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3180" />
+    <inkscape:perspective
+       id="perspective3159"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5783"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5825"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5889"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6466"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8438"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8627"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-4"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-2"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-8"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-96"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8749-6"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective8840"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3414"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4166"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3055"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="
+     bordercolor="
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.2899626"
+     inkscape:cx="407.01346"
+     inkscape:cy="795.9877"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3177">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="r01"
+       inkscape:label="Tank 01"
+       transform="matrix(0.2790918,0,0,0.277474,103.51833,112.221)">
+      <rect
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="47.199314"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3182"
+         style="opacity:1;fill:
+      <rect
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         style="opacity:1;fill:
+         id="rect3695"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="136.5144"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="rect3697"
+         d="M 174.73903,70.679104 L 219.49698,70.679104 C 235.10107,70.679104 247.66321,85.237571 247.66321,95.233899 C 247.66321,95.233899 247.66321,103.24247 247.66321,109.16145 C 247.66321,119.15778 235.10107,133.71625 219.49698,133.71625 L 174.73903,133.71625 C 159.13494,133.71625 146.57281,134.84308 146.57281,124.84675 L 146.57281,79.252652 C 146.57281,69.256324 159.13494,70.679104 174.73903,70.679104 z"
+         style="fill:
+    </g>
+    <g
+       id="r02"
+       inkscape:label="Tank 02"
+       transform="matrix(0.2790918,0,0,0.2774739,104.71288,113.39689)">
+      <rect
+         style="opacity:1;fill:
+         id="rect3700"
+         width="107.4915"
+         height="20.996881"
+         x="143.90808"
+         y="200.9301"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="290.24521"
+         x="143.90808"
+         height="18.803167"
+         width="107.4915"
+         id="rect3702"
+         style="opacity:1;fill:
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <path
+         style="fill:
+         d="M 174.76197,224.44219 L 219.47404,224.44219 C 235.06214,224.44219 247.6114,238.98573 247.6114,248.97181 C 247.6114,248.97181 247.6114,256.97217 247.6114,262.88509 C 247.6114,272.87117 235.06214,287.41471 219.47404,287.41471 L 174.76197,287.41471 C 159.17387,287.41471 146.62462,288.54039 146.62462,278.5543 L 146.62462,233.00695 C 146.62462,223.02087 159.17387,224.44219 174.76197,224.44219 z"
+         id="path3704"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+    </g>
+    <g
+       id="r03"
+       inkscape:label="Tank 03"
+       transform="matrix(0.2790918,0,0,0.2774739,104.71288,114.49465)">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="349.59283"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3706"
+         style="opacity:1;fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         style="opacity:1;fill:
+         id="rect3708"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="438.90796"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3710"
+         d="M 174.92966,373.34098 L 219.30635,373.34098 C 234.77752,373.34098 247.23266,387.77544 247.23266,397.68661 C 247.23266,397.68661 247.23266,405.62696 247.23266,411.49553 C 247.23266,421.4067 234.77752,435.84116 219.30635,435.84116 L 174.92966,435.84116 C 159.45849,435.84116 147.00336,436.9584 147.00336,427.04721 L 147.00336,381.8415 C 147.00336,371.93032 159.45849,373.34098 174.92966,373.34098 z"
+         style="fill:
+    </g>
+    <g
+       id="r04"
+       inkscape:label="Tank 04"
+       transform="matrix(0.2790918,0,0,0.2774739,103.51833,115.77462)">
+      <rect
+         style="opacity:1;fill:
+         id="rect3712"
+         width="107.4915"
+         height="20.996881"
+         x="143.90808"
+         y="510.08102"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="599.39612"
+         x="143.90808"
+         height="18.803167"
+         width="107.4915"
+         id="rect3714"
+         style="opacity:1;fill:
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <path
+         style="fill:
+         d="M 174.76197,533.59312 L 219.47404,533.59312 C 235.06214,533.59312 247.6114,548.13666 247.6114,558.12274 C 247.6114,558.12274 247.6114,566.1231 247.6114,572.03602 C 247.6114,582.0221 235.06214,596.56564 219.47404,596.56564 L 174.76197,596.56564 C 159.17387,596.56564 146.62462,597.69132 146.62462,587.70523 L 146.62462,542.15788 C 146.62462,532.1718 159.17387,533.59312 174.76197,533.59312 z"
+         id="path3716"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+    </g>
+    <g
+       id="r05"
+       inkscape:label="Tank 05"
+       transform="matrix(0.2790918,0,0,0.277474,102.32378,117.02859)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="668.87988"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3718"
+         style="opacity:1;fill:
+      <rect
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         style="opacity:1;fill:
+         id="rect3720"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="758.19495"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3722"
+         d="M 174.76197,692.39196 L 219.47404,692.39196 C 235.06214,692.39196 247.6114,706.9355 247.6114,716.92158 C 247.6114,716.92158 247.6114,724.92194 247.6114,730.83486 C 247.6114,740.82094 235.06214,755.36448 219.47404,755.36448 L 174.76197,755.36448 C 159.17387,755.36448 146.62462,756.49016 146.62462,746.50407 L 146.62462,700.95672 C 146.62462,690.97064 159.17387,692.39196 174.76197,692.39196 z"
+         style="fill:
+    </g>
+    <g
+       id="r06"
+       inkscape:label="Tank 06"
+       transform="matrix(0.2790918,0,0,0.277474,77.146372,112.221)">
+      <rect
+         style="opacity:1;fill:
+         id="rect3724"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="47.199314"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="136.5144"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3726"
+         style="opacity:1;fill:
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <path
+         style="fill:
+         d="M 514.1535,70.475345 L 559.20095,70.475345 C 574.90597,70.475345 587.54936,85.127976 587.54936,95.18896 C 587.54936,95.18896 587.54936,103.24933 587.54936,109.2066 C 587.54936,119.26758 574.90597,133.92021 559.20095,133.92021 L 514.1535,133.92021 C 498.44848,133.92021 485.80509,135.05434 485.80509,124.99334 L 485.80509,79.104346 C 485.80509,69.043362 498.44848,70.475345 514.1535,70.475345 z"
+         id="path3728"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+    </g>
+    <g
+       id="r07"
+       inkscape:label="Tank 07"
+       transform="matrix(0.2790918,0,0,0.2774739,78.340922,113.39689)">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="200.9301"
+         x="483.46729"
+         height="20.996881"
+         width="107.4915"
+         id="rect3730"
+         style="opacity:1;fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         style="opacity:1;fill:
+         id="rect3732"
+         width="107.4915"
+         height="18.803167"
+         x="483.46729"
+         y="290.24521"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3734"
+         d="M 514.1535,224.20614 L 559.20095,224.20614 C 574.90597,224.20614 587.54936,238.85877 587.54936,248.91975 C 587.54936,248.91975 587.54936,256.98012 587.54936,262.93739 C 587.54936,272.99837 574.90597,287.651 559.20095,287.651 L 514.1535,287.651 C 498.44848,287.651 485.80509,288.78513 485.80509,278.72413 L 485.80509,232.83514 C 485.80509,222.77415 498.44848,224.20614 514.1535,224.20614 z"
+         style="fill:
+    </g>
+    <g
+       id="r08"
+       inkscape:label="Tank 08"
+       transform="matrix(0.2731551,0,0,0.2774739,81.202461,114.49467)">
+      <rect
+         style="opacity:1;fill:
+         id="rect3736"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="349.59283"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="438.90796"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3738"
+         style="opacity:1;fill:
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <path
+         style="fill:
+         d="M 512.96562,372.75504 L 560.38883,372.75504 C 576.92211,372.75504 590.23231,387.46028 590.23231,397.55738 C 590.23231,397.55738 590.23231,405.64669 590.23231,411.62535 C 590.23231,421.72245 576.92211,436.42769 560.38883,436.42769 L 512.96562,436.42769 C 496.43234,436.42769 483.12214,437.56589 483.12214,427.46877 L 483.12214,381.41502 C 483.12214,371.31792 496.43234,372.75504 512.96562,372.75504 z"
+         id="path3740"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+    </g>
+    <g
+       id="r09"
+       inkscape:label="Tank 09"
+       transform="matrix(0.2790918,0,0,0.2774739,77.146372,115.77462)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="510.08102"
+         x="483.46729"
+         height="20.996881"
+         width="107.4915"
+         id="rect3742"
+         style="opacity:1;fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         style="opacity:1;fill:
+         id="rect3744"
+         width="107.4915"
+         height="18.803167"
+         x="483.46729"
+         y="599.39612"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3746"
+         d="M 514.31656,533.82151 L 559.5927,533.82151 C 575.37744,533.82151 588.08501,548.2595 588.08501,558.17312 C 588.08501,558.17312 588.08501,566.11541 588.08501,571.98542 C 588.08501,581.89902 575.37744,596.33702 559.5927,596.33702 L 514.31656,596.33702 C 498.53182,596.33702 485.82425,597.45454 485.82425,587.54091 L 485.82425,542.32412 C 485.82425,532.4105 498.53182,533.82151 514.31656,533.82151 z"
+         style="fill:
+    </g>
+    <g
+       id="r10"
+       inkscape:label="Tank 10"
+       transform="matrix(0.2790918,0,0,0.277474,75.951822,117.02859)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         style="opacity:1;fill:
+         id="rect3748"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="668.87988"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="758.19495"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3750"
+         style="opacity:1;fill:
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+      <path
+         style="fill:
+         d="M 514.56196,692.73089 L 558.79249,692.73089 C 574.2127,692.73089 586.62681,707.1178 586.62681,716.99633 C 586.62681,716.99633 586.62681,724.91053 586.62681,730.75976 C 586.62681,740.63829 574.2127,755.02521 558.79249,755.02521 L 514.56196,755.02521 C 499.14175,755.02521 486.72764,756.13876 486.72764,746.26022 L 486.72764,701.20341 C 486.72764,691.32488 499.14175,692.73089 514.56196,692.73089 z"
+         id="path3752"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+    </g>
+    <g
+       id="turret"
+       transform="matrix(0.1376614,0,0,0.1376614,101.177,229.47727)"
+       inkscape:export-filename="~/TankIntel/data/images/turret.png"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817"
+       inkscape:label="Turret">
+      <rect
+         ry="0"
+         rx="0"
+         y="837.32404"
+         x="284.77173"
+         height="217.92607"
+         width="217.92607"
+         id="rect3766"
+         style="opacity:1;fill:
+      <g
+         inkscape:transform-center-x="-27.029589"
+         transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+         id="g3761">
+        <path
+           style="opacity:1;fill:
+           d="M 155.375,352.03125 C 151.11182,352.03125 147.62501,355.48682 147.625,359.75 C 147.625,364.01318 151.11182,367.46875 155.375,367.46875 C 158.17271,367.46875 160.96077,365.40089 161.96875,363.13303 L 169.76245,363.13303 C 168.98631,362.74743 168.65038,362.38051 168.65039,361.44553 L 168.65039,358.61697 C 168.65039,357.68198 169.10198,357.46931 169.76245,356.92947 L 162.28125,356.92947 C 161.40193,354.50411 158.40448,352.03125 155.375,352.03125 z"
+           transform="matrix(9.0776486,0,0,9.0776486,-1027.6936,-2323.9241)"
+           id="path3754"
+           sodipodi:nodetypes="cssccccccc" />
+        <path
+           transform="matrix(0.8965517,0,0,0.8965517,266.45117,99.602763)"
+           style="fill:
+           d="M 75.890758,938.33112 C 75.890758,962.95165 80.654204,981.66941 134.30327,1011.8178 C 93.738613,1011.8178 60.816574,978.89577 60.816574,938.33112 C 60.816574,897.76646 93.738613,864.84442 134.30327,864.84442 C 82.538478,883.68717 75.890758,917.46609 75.890758,938.33112 z"
+           id="path3758"
+           sodipodi:nodetypes="ccscz" />
+      </g>
+    </g>
+    <g
+       id="bullet"
+       transform="matrix(0.1376614,0,0,0.1376614,170.37201,232.4995)"
+       inkscape:export-filename="~/TankIntel/data/images/turret.png"
+       inkscape:export-xdpi="8.2596817"
+       inkscape:export-ydpi="8.2596817"
+       inkscape:label="Bullet"
+       style="fill:
+      <rect
+         ry="0"
+         rx="0"
+         y="837.32404"
+         x="284.77173"
+         height="217.92607"
+         width="217.92607"
+         id="rect3909"
+         style="opacity:1;fill:
+      <g
+         inkscape:transform-center-x="-27.029589"
+         transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+         id="g3911"
+         style="fill:
+        <path
+           sodipodi:type="arc"
+           style="opacity:1;fill:
+           id="path3913"
+           sodipodi:cx="382.63763"
+           sodipodi:cy="941.70978"
+           sodipodi:rx="70.107994"
+           sodipodi:ry="70.107994"
+           d="m 452.74563,941.70978 c 0,38.71957 -31.38842,70.10802 -70.108,70.10802 -38.71957,0 -70.10799,-31.38845 -70.10799,-70.10802 0,-38.71958 31.38842,-70.108 70.10799,-70.108 38.71958,0 70.108,31.38842 70.108,70.108 z"
+           transform="matrix(0.4094058,0,0,0.4094058,225.98357,556.16834)" />
+      </g>
+    </g>
+    <g
+       id="splash33"
+       transform="translate(-6.1136369,-51.529225)"
+       inkscape:export-filename="~/TankIntel/data/images/splash.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       inkscape:label="
+      <rect
+         ry="16.025642"
+         rx="15.317919"
+         y="177.81535"
+         x="479.87521"
+         height="100"
+         width="200"
+         id="rect3923"
+         style="fill:
+      <text
+         sodipodi:linespacing="100%"
+         id="text3925"
+         y="214.92358"
+         x="489.27747"
+         style="font-size:30.74519539px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:
+         xml:space="preserve"><tspan
+           y="214.92358"
+           x="489.27747"
+           id="tspan3927"
+           sodipodi:role="line">Tank Intel</tspan></text>
+      <g
+         style="fill:
+         inkscape:label="Bullet"
+         inkscape:export-ydpi="8.2596817"
+         inkscape:export-xdpi="8.2596817"
+         inkscape:export-filename="~/TankIntel/data/images/turret.png"
+         transform="matrix(0.06704014,0,0,0.06704014,553.28027,180.31979)"
+         id="g3973">
+        <rect
+           style="fill:
+           id="rect3975"
+           width="217.92607"
+           height="217.92607"
+           x="284.77173"
+           y="837.32404"
+           rx="0"
+           ry="0" />
+        <g
+           style="fill:
+           id="g3977"
+           transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+           inkscape:transform-center-x="-27.029589">
+          <path
+             transform="matrix(0.4094058,0,0,0.4094058,225.98357,556.16834)"
+             d="m 452.74563,941.70978 c 0,38.71957 -31.38842,70.10802 -70.108,70.10802 -38.71957,0 -70.10799,-31.38845 -70.10799,-70.10802 0,-38.71958 31.38842,-70.108 70.10799,-70.108 38.71958,0 70.108,31.38842 70.108,70.108 z"
+             sodipodi:ry="70.107994"
+             sodipodi:rx="70.107994"
+             sodipodi:cy="941.70978"
+             sodipodi:cx="382.63763"
+             id="path3979"
+             style="fill:
+             sodipodi:type="arc" />
+        </g>
+      </g>
+      <g
+         style="fill:
+         inkscape:label="Bullet"
+         inkscape:export-ydpi="8.2596817"
+         inkscape:export-xdpi="8.2596817"
+         inkscape:export-filename="~/TankIntel/data/images/turret.png"
+         transform="matrix(0.06704014,0,0,0.06704014,517.20902,177.457)"
+         id="g3981">
+        <rect
+           style="fill:
+           id="rect3983"
+           width="217.92607"
+           height="217.92607"
+           x="284.77173"
+           y="837.32404"
+           rx="0"
+           ry="0" />
+        <g
+           style="fill:
+           id="g3985"
+           transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+           inkscape:transform-center-x="-27.029589">
+          <path
+             transform="matrix(0.4094058,0,0,0.4094058,225.98357,556.16834)"
+             d="m 452.74563,941.70978 c 0,38.71957 -31.38842,70.10802 -70.108,70.10802 -38.71957,0 -70.10799,-31.38845 -70.10799,-70.10802 0,-38.71958 31.38842,-70.108 70.10799,-70.108 38.71958,0 70.108,31.38842 70.108,70.108 z"
+             sodipodi:ry="70.107994"
+             sodipodi:rx="70.107994"
+             sodipodi:cy="941.70978"
+             sodipodi:cx="382.63763"
+             id="path3987"
+             style="fill:
+             sodipodi:type="arc" />
+        </g>
+      </g>
+      <g
+         transform="translate(135.24796,-25.320394)"
+         id="g4209">
+        <g
+           id="g3933"
+           inkscape:label="Tank 03"
+           transform="matrix(0.1017219,0.1588535,-0.1583932,0.101427,417.18591,190.0606)">
+          <rect
+             inkscape:export-ydpi="24.972649"
+             inkscape:export-xdpi="24.972649"
+             inkscape:export-filename="~/TankIntel/data/images/r03.png"
+             rx="4.1487942"
+             ry="3.6946595"
+             y="349.59283"
+             x="143.90808"
+             height="20.996881"
+             width="107.4915"
+             id="rect3935"
+             style="fill:
+          <rect
+             inkscape:export-ydpi="24.972649"
+             inkscape:export-xdpi="24.972649"
+             inkscape:export-filename="~/TankIntel/data/images/r03.png"
+             style="fill:
+             id="rect3937"
+             width="107.4915"
+             height="18.803167"
+             x="143.90808"
+             y="438.90796"
+             ry="3.2328269"
+             rx="4.1487942" />
+          <path
+             inkscape:export-ydpi="24.972649"
+             inkscape:export-xdpi="24.972649"
+             inkscape:export-filename="~/TankIntel/data/images/r03.png"
+             sodipodi:nodetypes="ccccccccc"
+             id="path3939"
+             d="m 173.42046,371.2165 47.39509,0 c 16.52348,0 29.82578,15.41625 29.82578,26.00156 0,0 0,8.48043 0,14.74816 0,10.58531 -13.3023,26.00156 -29.82578,26.00156 l -47.39509,0 c -16.52348,0 -29.82577,1.19323 -29.82577,-9.39209 l 0,-48.28049 c 0,-10.58531 13.30229,-9.0787 29.82577,-9.0787 z"
+             style="color:
+        </g>
+        <g
+           id="g4189"
+           transform="matrix(0.0926189,0.01365504,-0.01365504,0.0926189,349.51418,169.04121)"
+           inkscape:export-filename="~/TankIntel/data/images/turret.png"
+           inkscape:export-xdpi="89.999817"
+           inkscape:export-ydpi="89.999817"
+           inkscape:label="Turret">
+          <rect
+             ry="0"
+             rx="0"
+             y="837.32404"
+             x="284.77173"
+             height="217.92607"
+             width="217.92607"
+             id="rect4191"
+             style="fill:
+          <g
+             inkscape:transform-center-x="-27.029589"
+             transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+             id="g4193">
+            <path
+               style="fill:
+               d="m 155.375,352.03125 c -4.26318,0 -7.74999,3.45557 -7.75,7.71875 0,4.26318 3.48682,7.71875 7.75,7.71875 2.79771,0 5.58577,-2.06786 6.59375,-4.33572 l 7.7937,0 c -0.77614,-0.3856 -1.11207,-0.75252 -1.11206,-1.6875 l 0,-2.82856 c 0,-0.93499 0.45159,-1.14766 1.11206,-1.6875 l -7.4812,0 c -0.87932,-2.42536 -3.87677,-4.89822 -6.90625,-4.89822 z"
+               transform="matrix(9.0776486,0,0,9.0776486,-1027.6936,-2323.9241)"
+               id="path4195"
+               sodipodi:nodetypes="cssccccccc" />
+            <path
+               transform="matrix(0.8965517,0,0,0.8965517,266.45117,99.602763)"
+               style="fill:
+               d="m 75.890758,938.33112 c 0,24.62053 4.763446,43.33829 58.412512,73.48668 -40.564657,0 -73.486696,-32.92203 -73.486696,-73.48668 0,-40.56466 32.922039,-73.4867 73.486696,-73.4867 -51.764792,18.84275 -58.412512,52.62167 -58.412512,73.4867 z"
+               id="path4197"
+               sodipodi:nodetypes="ccscz" />
+          </g>
+        </g>
+      </g>
+      <g
+         transform="translate(135.24796,-25.320394)"
+         id="g4220">
+        <g
+           id="g3953"
+           inkscape:label="Tank 05"
+           transform="matrix(0.1468263,-0.1184223,0.1180791,0.1464007,356.40432,190.064)">
+          <rect
+             inkscape:export-ydpi="24.972664"
+             inkscape:export-xdpi="24.972664"
+             inkscape:export-filename="~/TankIntel/data/images/r05.png"
+             rx="4.1487942"
+             ry="3.6946595"
+             y="668.87988"
+             x="143.90808"
+             height="20.996881"
+             width="107.4915"
+             id="rect3955"
+             style="fill:
+          <rect
+             inkscape:export-ydpi="24.972664"
+             inkscape:export-xdpi="24.972664"
+             inkscape:export-filename="~/TankIntel/data/images/r05.png"
+             style="fill:
+             id="rect3957"
+             width="107.4915"
+             height="18.803167"
+             x="143.90808"
+             y="758.19495"
+             ry="3.2328269"
+             rx="4.1487942" />
+          <path
+             inkscape:export-ydpi="24.972664"
+             inkscape:export-xdpi="24.972664"
+             inkscape:export-filename="~/TankIntel/data/images/r05.png"
+             sodipodi:nodetypes="ccccccccc"
+             id="path3959"
+             d="m 173.42046,690.50353 47.39509,0 c 16.52348,0 29.82578,15.41625 29.82578,26.00156 0,0 0,8.48043 0,14.74816 0,10.58531 -13.3023,26.00156 -29.82578,26.00156 l -47.39509,0 c -16.52348,0 -29.82577,1.19323 -29.82577,-9.39209 l 0,-48.28049 c 0,-10.58531 13.30229,-9.0787 29.82577,-9.0787 z"
+             style="color:
+        </g>
+        <g
+           id="g4199"
+           transform="matrix(-0.04592885,-0.08157979,0.08157979,-0.04592885,411.17564,348.78205)"
+           inkscape:export-filename="~/TankIntel/data/images/turret.png"
+           inkscape:export-xdpi="89.999817"
+           inkscape:export-ydpi="89.999817"
+           inkscape:label="Turret">
+          <rect
+             ry="0"
+             rx="0"
+             y="837.32404"
+             x="284.77173"
+             height="217.92607"
+             width="217.92607"
+             id="rect4201"
+             style="fill:
+          <g
+             inkscape:transform-center-x="-27.029589"
+             transform="matrix(0.8002293,0,0,0.8002293,87.420554,192.70331)"
+             id="g4203">
+            <path
+               style="fill:
+               d="m 155.375,352.03125 c -4.26318,0 -7.74999,3.45557 -7.75,7.71875 0,4.26318 3.48682,7.71875 7.75,7.71875 2.79771,0 5.58577,-2.06786 6.59375,-4.33572 l 7.7937,0 c -0.77614,-0.3856 -1.11207,-0.75252 -1.11206,-1.6875 l 0,-2.82856 c 0,-0.93499 0.45159,-1.14766 1.11206,-1.6875 l -7.4812,0 c -0.87932,-2.42536 -3.87677,-4.89822 -6.90625,-4.89822 z"
+               transform="matrix(9.0776486,0,0,9.0776486,-1027.6936,-2323.9241)"
+               id="path4205"
+               sodipodi:nodetypes="cssccccccc" />
+            <path
+               transform="matrix(0.8965517,0,0,0.8965517,266.45117,99.602763)"
+               style="fill:
+               d="m 75.890758,938.33112 c 0,24.62053 4.763446,43.33829 58.412512,73.48668 -40.564657,0 -73.486696,-32.92203 -73.486696,-73.48668 0,-40.56466 32.922039,-73.4867 73.486696,-73.4867 -51.764792,18.84275 -58.412512,52.62167 -58.412512,73.4867 z"
+               id="path4207"
+               sodipodi:nodetypes="ccscz" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:15.00487614px;font-style:normal;font-weight:normal;fill:
+       x="440.28162"
+       y="379.5546"
+       id="text6002"><tspan
+         sodipodi:role="line"
+         id="tspan6004"
+         x="440.28162"
+         y="379.5546">splash with text converted to paths</tspan></text>
+    <g
+       id="r11"
+       inkscape:label="Tank 11"
+       transform="matrix(0.2790918,0,0,0.277474,240.42101,112.64336)">
+      <rect
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="47.199314"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3182-1"
+         style="fill:
+      <rect
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         style="fill:
+         id="rect3695-4"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="136.5144"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="4.6326056"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-filename="/home/laur/r01b.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="rect3697-9"
+         d="m 174.73903,70.679104 44.75795,0 c 15.60409,0 28.16623,14.558467 28.16623,24.554795 0,0 0,8.008571 0,13.927551 0,9.99633 -12.56214,24.5548 -28.16623,24.5548 l -44.75795,0 c -15.60409,0 -28.16622,1.12683 -28.16622,-8.8695 l 0,-45.594098 c 0,-9.996328 12.56213,-8.573548 28.16622,-8.573548 z"
+         style="fill:
+    </g>
+    <g
+       id="r12"
+       inkscape:label="Tank 12"
+       transform="matrix(0.2790918,0,0,0.2774739,241.61556,113.81925)">
+      <rect
+         style="fill:
+         id="rect3700-0"
+         width="107.4915"
+         height="20.996881"
+         x="143.90808"
+         y="200.9301"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="290.24521"
+         x="143.90808"
+         height="18.803167"
+         width="107.4915"
+         id="rect3702-6"
+         style="fill:
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <path
+         style="fill:
+         d="m 174.76197,224.44219 44.71207,0 c 15.5881,0 28.13736,14.54354 28.13736,24.52962 0,0 0,8.00036 0,13.91328 0,9.98608 -12.54926,24.52962 -28.13736,24.52962 l -44.71207,0 c -15.5881,0 -28.13735,1.12568 -28.13735,-8.86041 l 0,-45.54735 c 0,-9.98608 12.54925,-8.56476 28.13735,-8.56476 z"
+         id="path3704-8"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r02.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+    </g>
+    <g
+       id="r13"
+       inkscape:label="Tank 13"
+       transform="matrix(0.2790918,0,0,0.2774739,241.61556,114.91701)">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="349.59283"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3706-2"
+         style="fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         style="fill:
+         id="rect3708-6"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="438.90796"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r03.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3710-6"
+         d="m 174.92966,373.34098 44.37669,0 c 15.47117,0 27.92631,14.43446 27.92631,24.34563 0,0 0,7.94035 0,13.80892 0,9.91117 -12.45514,24.34563 -27.92631,24.34563 l -44.37669,0 c -15.47117,0 -27.9263,1.11724 -27.9263,-8.79395 l 0,-45.20571 c 0,-9.91118 12.45513,-8.50052 27.9263,-8.50052 z"
+         style="fill:
+    </g>
+    <g
+       id="r14"
+       inkscape:label="Tank 14"
+       transform="matrix(0.2790918,0,0,0.2774739,240.42101,116.19698)">
+      <rect
+         style="fill:
+         id="rect3712-9"
+         width="107.4915"
+         height="20.996881"
+         x="143.90808"
+         y="510.08102"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="599.39612"
+         x="143.90808"
+         height="18.803167"
+         width="107.4915"
+         id="rect3714-5"
+         style="fill:
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <path
+         style="fill:
+         d="m 174.76197,533.59312 44.71207,0 c 15.5881,0 28.13736,14.54354 28.13736,24.52962 0,0 0,8.00036 0,13.91328 0,9.98608 -12.54926,24.52962 -28.13736,24.52962 l -44.71207,0 c -15.5881,0 -28.13735,1.12568 -28.13735,-8.86041 l 0,-45.54735 c 0,-9.98608 12.54925,-8.56476 28.13735,-8.56476 z"
+         id="path3716-0"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r04.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+    </g>
+    <g
+       id="r15"
+       inkscape:label="Tank 15"
+       transform="matrix(0.2790918,0,0,0.277474,239.22646,117.45095)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="668.87988"
+         x="143.90808"
+         height="20.996881"
+         width="107.4915"
+         id="rect3718-8"
+         style="fill:
+      <rect
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         style="fill:
+         id="rect3720-7"
+         width="107.4915"
+         height="18.803167"
+         x="143.90808"
+         y="758.19495"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972664"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-filename="~/TankIntel/data/images/r05.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3722-1"
+         d="m 174.76197,692.39196 44.71207,0 c 15.5881,0 28.13736,14.54354 28.13736,24.52962 0,0 0,8.00036 0,13.91328 0,9.98608 -12.54926,24.52962 -28.13736,24.52962 l -44.71207,0 c -15.5881,0 -28.13735,1.12568 -28.13735,-8.86041 l 0,-45.54735 c 0,-9.98608 12.54925,-8.56476 28.13735,-8.56476 z"
+         style="fill:
+    </g>
+    <g
+       id="r16"
+       inkscape:label="Tank 16"
+       transform="matrix(0.2790918,0,0,0.277474,214.04905,112.64336)">
+      <rect
+         style="fill:
+         id="rect3724-2"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="47.199314"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="136.5144"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3726-7"
+         style="fill:
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+      <path
+         style="fill:
+         d="m 514.1535,70.475345 45.04745,0 c 15.70502,0 28.34841,14.652631 28.34841,24.713615 0,0 0,8.06037 0,14.01764 0,10.06098 -12.64339,24.71361 -28.34841,24.71361 l -45.04745,0 c -15.70502,0 -28.34841,1.13413 -28.34841,-8.92687 l 0,-45.888994 c 0,-10.060984 12.64339,-8.629001 28.34841,-8.629001 z"
+         id="path3728-2"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r06.png"
+         inkscape:export-xdpi="24.972664"
+         inkscape:export-ydpi="24.972664" />
+    </g>
+    <g
+       id="r17"
+       inkscape:label="Tank 17"
+       transform="matrix(0.2790918,0,0,0.2774739,215.2436,113.81925)">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="200.9301"
+         x="483.46729"
+         height="20.996881"
+         width="107.4915"
+         id="rect3730-6"
+         style="fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         style="fill:
+         id="rect3732-1"
+         width="107.4915"
+         height="18.803167"
+         x="483.46729"
+         y="290.24521"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r07.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3734-0"
+         d="m 514.1535,224.20614 45.04745,0 c 15.70502,0 28.34841,14.65263 28.34841,24.71361 0,0 0,8.06037 0,14.01764 0,10.06098 -12.64339,24.71361 -28.34841,24.71361 l -45.04745,0 c -15.70502,0 -28.34841,1.13413 -28.34841,-8.92687 l 0,-45.88899 c 0,-10.06099 12.64339,-8.629 28.34841,-8.629 z"
+         style="fill:
+    </g>
+    <g
+       id="r18"
+       inkscape:label="Tank 18"
+       transform="matrix(0.2731551,0,0,0.2774739,218.10514,114.91703)">
+      <rect
+         style="fill:
+         id="rect3736-1"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="349.59283"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="438.90796"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3738-5"
+         style="fill:
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+      <path
+         style="fill:
+         d="m 512.96562,372.75504 47.42321,0 c 16.53328,0 29.84348,14.70524 29.84348,24.80234 0,0 0,8.08931 0,14.06797 0,10.0971 -13.3102,24.80234 -29.84348,24.80234 l -47.42321,0 c -16.53328,0 -29.84348,1.1382 -29.84348,-8.95892 l 0,-46.05375 c 0,-10.0971 13.3102,-8.65998 29.84348,-8.65998 z"
+         id="path3740-9"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="~/TankIntel/data/images/r08.png"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-ydpi="24.972649" />
+    </g>
+    <g
+       id="r19"
+       inkscape:label="Tank 19"
+       transform="matrix(0.2790918,0,0,0.2774739,214.04905,116.19698)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         rx="4.1487942"
+         ry="3.6946595"
+         y="510.08102"
+         x="483.46729"
+         height="20.996881"
+         width="107.4915"
+         id="rect3742-9"
+         style="fill:
+      <rect
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         style="fill:
+         id="rect3744-0"
+         width="107.4915"
+         height="18.803167"
+         x="483.46729"
+         y="599.39612"
+         ry="3.2328269"
+         rx="4.1487942" />
+      <path
+         inkscape:export-ydpi="24.972649"
+         inkscape:export-xdpi="24.972649"
+         inkscape:export-filename="~/TankIntel/data/images/r09.png"
+         sodipodi:nodetypes="ccccccccc"
+         id="path3746-9"
+         d="m 514.31656,533.82151 45.27614,0 c 15.78474,0 28.49231,14.43799 28.49231,24.35161 0,0 0,7.94229 0,13.8123 0,9.9136 -12.70757,24.3516 -28.49231,24.3516 l -45.27614,0 c -15.78474,0 -28.49231,1.11752 -28.49231,-8.79611 l 0,-45.21679 c 0,-9.91362 12.70757,-8.50261 28.49231,-8.50261 z"
+         style="fill:
+    </g>
+    <g
+       id="r20"
+       inkscape:label="Tank 20"
+       transform="matrix(0.2790918,0,0,0.277474,212.8545,117.45095)"
+       inkscape:export-xdpi="89.999817"
+       inkscape:export-ydpi="89.999817">
+      <rect
+         style="fill:
+         id="rect3748-7"
+         width="107.4915"
+         height="20.996881"
+         x="483.46729"
+         y="668.87988"
+         ry="3.6946595"
+         rx="4.1487942"
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+      <rect
+         rx="4.1487942"
+         ry="3.2328269"
+         y="758.19495"
+         x="483.46729"
+         height="18.803167"
+         width="107.4915"
+         id="rect3750-7"
+         style="fill:
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+      <path
+         style="fill:
+         d="m 514.56196,692.73089 44.23053,0 c 15.42021,0 27.83432,14.38691 27.83432,24.26544 0,0 0,7.9142 0,13.76343 0,9.87853 -12.41411,24.26545 -27.83432,24.26545 l -44.23053,0 c -15.42021,0 -27.83432,1.11355 -27.83432,-8.76499 l 0,-45.05681 c 0,-9.87853 12.41411,-8.47252 27.83432,-8.47252 z"
+         id="path3752-1"
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:export-filename="/home/laur/r01b.png"
+         inkscape:export-xdpi="4.6326056"
+         inkscape:export-ydpi="4.6326056" />
+    </g>
+    <image
+       y="252.56828"
+       x="475.11856"
+       id="image3174"
+       xlink:href="file:///C:/Users/laur/Desktop/TankAI-0.7/data/images/splash.png"
+       height="100.87337"
+       width="200" />
+  </g>
+</svg>

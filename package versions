@@ -1,0 +1,6 @@
+pygame.__version__
+'1.9.1release'
+pygsear.version()
+'pygsear-0.53.2'
+Box2D.__version__
+'2.0.2b2'
