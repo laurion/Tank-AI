@@ -39,3 +39,5 @@ After installation, execute `Tank-AI.exe`
 ### Template tank program:
 
     tanks/template.py
+
+![](http://i.imgur.com/8ady3.png)
