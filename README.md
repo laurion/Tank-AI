@@ -1,7 +1,7 @@
 Tank AI
 ======
 
-TankAI este o platforma destinata cercetarii si educatiei in Inteligenta Artificiala. 
+`TankAI` este o platforma destinata cercetarii si educatiei in Inteligenta Artificiala. 
 Inspirat din RobotWar ( https://en.wikipedia.org/wiki/RobotWar ) 
     "The task set before you is: to program a robot, that no other robot can destroy!"
 
@@ -22,22 +22,20 @@ which can be installed by running the installation script:
 ```bash
 
 ./install.sh
-
 ```
-## Run:
+## Execution:
 
-    Execute Tank-AI.exe
+After installation, execute `Tank-AI.exe`
 
-
-## Example tank programs:
-
-    tanks/examples
-
-## Template tank program:
-
-    tanks/template.py
 
 ## Documentation:
 
     documentation.pdf
 
+### Example tank programs:
+
+    tanks/examples
+
+### Template tank program:
+
+    tanks/template.py
