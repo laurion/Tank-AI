@@ -1,0 +1,3243 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>pybox2d.Box2D</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://code.google.com/p/pybox2d/">pybox2d</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        Package&nbsp;pybox2d ::
+        Module&nbsp;Box2D
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="pybox2d.Box2D-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module Box2D</h1><p class="nomargin-top"><span class="codelink"><a href="pybox2d.Box2D-pysrc.html">source&nbsp;code</a></span></p>
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PickleError-class.html" class="summary-name">b2PickleError</a>
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Version-class.html" class="summary-name">b2Version</a><br />
+      Version numbering scheme.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Vec2-class.html" class="summary-name">b2Vec2</a><br />
+      A 2D column vector.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Vec3-class.html" class="summary-name">b2Vec3</a><br />
+      A 2D column vector with 3 elements.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Mat22-class.html" class="summary-name">b2Mat22</a><br />
+      A 2-by-2 matrix.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Mat33-class.html" class="summary-name">b2Mat33</a><br />
+      A 3-by-3 matrix.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2XForm-class.html" class="summary-name">b2XForm</a><br />
+      A transform contains translation and rotation.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Sweep-class.html" class="summary-name">b2Sweep</a><br />
+      This describes the motion of a body/shape for TOI computation.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Jacobian-class.html" class="summary-name">b2Jacobian</a><br />
+      Proxy of C++ b2Jacobian class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2JointEdge-class.html" class="summary-name">b2JointEdge</a><br />
+      A joint edge is used to connect bodies and joints together in a 
+        joint graph where each body is a node and each joint is an edge.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2JointDef-class.html" class="summary-name">b2JointDef</a><br />
+      Joint definitions are used to construct joints.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Joint-class.html" class="summary-name">b2Joint</a><br />
+      The base joint class.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactID-class.html" class="summary-name">b2ContactID</a><br />
+      Proxy of C++ b2ContactID class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactID_features-class.html" class="summary-name">b2ContactID_features</a><br />
+      Proxy of C++ b2ContactID_features class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ManifoldPoint-class.html" class="summary-name">b2ManifoldPoint</a><br />
+      A manifold point is a contact point belonging to a contact 
+        manifold.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Manifold-class.html" class="summary-name">b2Manifold</a><br />
+      A manifold for two touching convex shapes.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Segment-class.html" class="summary-name">b2Segment</a><br />
+      A line segment.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2AABB-class.html" class="summary-name">b2AABB</a><br />
+      An axis aligned bounding box.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2OBB-class.html" class="summary-name">b2OBB</a><br />
+      An oriented bounding box.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2MassData-class.html" class="summary-name">b2MassData</a><br />
+      This holds the mass data computed for a shape.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2FilterData-class.html" class="summary-name">b2FilterData</a><br />
+      This holds contact filtering data.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ShapeDef-class.html" class="summary-name">b2ShapeDef</a><br />
+      A shape definition is used to construct a shape.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Shape-class.html" class="summary-name">b2Shape</a><br />
+      A shape is used for collision detection.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2CircleDef-class.html" class="summary-name">b2CircleDef</a><br />
+      This structure is used to build circle shapes.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2CircleShape-class.html" class="summary-name">b2CircleShape</a><br />
+      A circle shape.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PolygonDef-class.html" class="summary-name">b2PolygonDef</a><br />
+      Convex polygon.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PolygonShape-class.html" class="summary-name">b2PolygonShape</a><br />
+      A convex polygon.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2EdgeChainDef-class.html" class="summary-name">b2EdgeChainDef</a><br />
+      This structure is used to build edge shapes.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2EdgeShape-class.html" class="summary-name">b2EdgeShape</a><br />
+      The edge shape.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Pair-class.html" class="summary-name">b2Pair</a><br />
+      Proxy of C++ b2Pair class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BufferedPair-class.html" class="summary-name">b2BufferedPair</a><br />
+      Proxy of C++ b2BufferedPair class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PairCallback-class.html" class="summary-name">b2PairCallback</a><br />
+      Proxy of C++ b2PairCallback class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PairManager-class.html" class="summary-name">b2PairManager</a><br />
+      Proxy of C++ b2PairManager class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Bound-class.html" class="summary-name">b2Bound</a><br />
+      Proxy of C++ b2Bound class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Proxy-class.html" class="summary-name">b2Proxy</a><br />
+      Proxy of C++ b2Proxy class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BroadPhase-class.html" class="summary-name">b2BroadPhase</a><br />
+      Proxy of C++ b2BroadPhase class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2DestructionListener-class.html" class="summary-name">b2DestructionListener</a><br />
+      Joints and shapes are destroyed when their associated body is 
+        destroyed.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BoundaryListener-class.html" class="summary-name">b2BoundaryListener</a><br />
+      This is called when a body's shape passes outside of the world 
+        boundary.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactFilter-class.html" class="summary-name">b2ContactFilter</a><br />
+      Implement this class to provide collision filtering.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactListener-class.html" class="summary-name">b2ContactListener</a><br />
+      Implement this class to get collision results.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Color-class.html" class="summary-name">b2Color</a><br />
+      Color for debug drawing.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2DebugDraw-class.html" class="summary-name">b2DebugDraw</a><br />
+      Implement and register this class with a  b2Worldto provide debug 
+        drawing of physics entities in your game.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BlockAllocator-class.html" class="summary-name">b2BlockAllocator</a><br />
+      Proxy of C++ b2BlockAllocator class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2StackEntry-class.html" class="summary-name">b2StackEntry</a><br />
+      Proxy of C++ b2StackEntry class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2StackAllocator-class.html" class="summary-name">b2StackAllocator</a><br />
+      Proxy of C++ b2StackAllocator class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactRegister-class.html" class="summary-name">b2ContactRegister</a><br />
+      Proxy of C++ b2ContactRegister class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactEdge-class.html" class="summary-name">b2ContactEdge</a><br />
+      A contact edge is used to connect bodies and contacts together in a
+        contact graph where each body is a node and each contact is an 
+        edge.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactPoint-class.html" class="summary-name">b2ContactPoint</a><br />
+      This structure is used to report contact points.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactResult-class.html" class="summary-name">b2ContactResult</a><br />
+      This structure is used to report contact point results.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Contact-class.html" class="summary-name">b2Contact</a><br />
+      The class manages contact between two shapes.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2NullContact-class.html" class="summary-name">b2NullContact</a><br />
+      Proxy of C++ b2NullContact class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ContactManager-class.html" class="summary-name">b2ContactManager</a><br />
+      Proxy of C++ b2ContactManager class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2TimeStep-class.html" class="summary-name">b2TimeStep</a><br />
+      Proxy of C++ b2TimeStep class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2World-class.html" class="summary-name">b2World</a><br />
+      The world class manages all physics entities, dynamic simulation, 
+        and asynchronous queries.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ControllerEdge-class.html" class="summary-name">b2ControllerEdge</a><br />
+      A controller edge is used to connect bodies and controllers 
+        together in a bipartite graph.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Controller-class.html" class="summary-name">b2Controller</a><br />
+      Base class for controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ControllerDef-class.html" class="summary-name">b2ControllerDef</a><br />
+      Proxy of C++ b2ControllerDef class
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BodyDef-class.html" class="summary-name">b2BodyDef</a><br />
+      A body definition holds all the data needed to construct a rigid 
+        body.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2Body-class.html" class="summary-name">b2Body</a><br />
+      A rigid body.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BuoyancyController-class.html" class="summary-name">b2BuoyancyController</a><br />
+      Calculates buoyancy forces for fluids in the form of a half plane.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2BuoyancyControllerDef-class.html" class="summary-name">b2BuoyancyControllerDef</a><br />
+      This class is used to build buoyancy controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ConstantAccelController-class.html" class="summary-name">b2ConstantAccelController</a><br />
+      Applies a force every frame.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ConstantAccelControllerDef-class.html" class="summary-name">b2ConstantAccelControllerDef</a><br />
+      This class is used to build constant acceleration controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ConstantForceController-class.html" class="summary-name">b2ConstantForceController</a><br />
+      Applies a force every frame.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2ConstantForceControllerDef-class.html" class="summary-name">b2ConstantForceControllerDef</a><br />
+      This class is used to build constant force controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2GravityController-class.html" class="summary-name">b2GravityController</a><br />
+      Applies simplified gravity between every pair of bodies.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2GravityControllerDef-class.html" class="summary-name">b2GravityControllerDef</a><br />
+      This class is used to build gravity controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2TensorDampingController-class.html" class="summary-name">b2TensorDampingController</a><br />
+      Applies top down linear damping to the controlled bodies The 
+        damping is calculated by multiplying velocity by a matrix in local 
+        co-ordinates.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2TensorDampingControllerDef-class.html" class="summary-name">b2TensorDampingControllerDef</a><br />
+      This class is used to build tensor damping controllers.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2DistanceJointDef-class.html" class="summary-name">b2DistanceJointDef</a><br />
+      Distance joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2DistanceJoint-class.html" class="summary-name">b2DistanceJoint</a><br />
+      A distance joint constrains two points on two bodies to remain at a
+        fixed distance from each other.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2GearJointDef-class.html" class="summary-name">b2GearJointDef</a><br />
+      Gear joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2GearJoint-class.html" class="summary-name">b2GearJoint</a><br />
+      A gear joint is used to connect two joints together.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2LineJointDef-class.html" class="summary-name">b2LineJointDef</a><br />
+      Line joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2LineJoint-class.html" class="summary-name">b2LineJoint</a><br />
+      A line joint.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2MouseJointDef-class.html" class="summary-name">b2MouseJointDef</a><br />
+      Mouse joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2MouseJoint-class.html" class="summary-name">b2MouseJoint</a><br />
+      A mouse joint is used to make a point on a body track a specified 
+        world point.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PrismaticJointDef-class.html" class="summary-name">b2PrismaticJointDef</a><br />
+      Prismatic joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PrismaticJoint-class.html" class="summary-name">b2PrismaticJoint</a><br />
+      A prismatic joint.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PulleyJointDef-class.html" class="summary-name">b2PulleyJointDef</a><br />
+      Pulley joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2PulleyJoint-class.html" class="summary-name">b2PulleyJoint</a><br />
+      The pulley joint is connected to two bodies and two fixed ground 
+        points.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2RevoluteJointDef-class.html" class="summary-name">b2RevoluteJointDef</a><br />
+      Revolute joint definition.
+    </td>
+  </tr>
+<tr>
+    <td class="summary" colspan="2">
+        <a href="pybox2d.Box2D.b2RevoluteJoint-class.html" class="summary-name">b2RevoluteJoint</a><br />
+      A revolute joint constrains to bodies to share a common point while
+        they are free to rotate about the point.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_swig_setattr_nondynamic"></a><span class="summary-sig-name">_swig_setattr_nondynamic</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">class_type</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">value</span>,
+        <span class="summary-sig-arg">static</span>=<span class="summary-sig-default">1</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_swig_setattr_nondynamic">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_swig_setattr"></a><span class="summary-sig-name">_swig_setattr</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">class_type</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">value</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_swig_setattr">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_swig_getattr"></a><span class="summary-sig-name">_swig_getattr</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">class_type</span>,
+        <span class="summary-sig-arg">name</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_swig_getattr">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_swig_repr"></a><span class="summary-sig-name">_swig_repr</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_swig_repr">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_swig_setattr_nondynamic_method"></a><span class="summary-sig-name">_swig_setattr_nondynamic_method</span>(<span class="summary-sig-arg">set</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_swig_setattr_nondynamic_method">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_fix_value_load"></a><span class="summary-sig-name">_pickle_fix_value_load</span>(<span class="summary-sig-arg">lists</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Returns the appropriate object (a b2Body, b2Shape, b2Joint, 
+      b2Controller) based on the indices in the passed-in dictionary.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_fix_value_load">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_pickle_fix_value_save" class="summary-sig-name" onclick="show_private();">_pickle_fix_value_save</a>(<span class="summary-sig-arg">lists</span>,
+        <span class="summary-sig-arg">value</span>)</span><br />
+      Fixes: b2Body, b2Shape, b2Joint, b2Controller</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_fix_value_save">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#pickle_fix" class="summary-sig-name">pickle_fix</a>(<span class="summary-sig-arg">world</span>,
+        <span class="summary-sig-arg">var</span>,
+        <span class="summary-sig-arg">func</span>=<span class="summary-sig-default"><code class="variable-quote">'</code><code class="variable-string">save</code><code class="variable-quote">'</code></span>,
+        <span class="summary-sig-arg">lists</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Fix variables so that they may be pickled (or loaded from a pickled state).</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#pickle_fix">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="no_pickle"></a><span class="summary-sig-name">no_pickle</span>(<span class="summary-sig-arg">self</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#no_pickle">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_generic_setstate"></a><span class="summary-sig-name">_generic_setstate</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">dict</span>)</span><br />
+      Takes each variable=value pair in the dictionary and sets the 
+      attributes based on them</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_generic_setstate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_generic_getstate" class="summary-sig-name" onclick="show_private();">_generic_getstate</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">additional_ignore</span>=<span class="summary-sig-default"><code class="variable-group">[</code><code class="variable-group">]</code></span>)</span><br />
+      Returns a dictionary representation of self, with 
+ dict(var=value [, ...])</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_generic_getstate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_factory_set"></a><span class="summary-sig-name">_pickle_factory_set</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">data</span>)</span><br />
+      The factory output cannot be created just yet, so store the necessary
+      information to create it later.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_factory_set">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_finalize"></a><span class="summary-sig-name">_pickle_finalize</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">world</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">body</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Finalize one of the outputs that we previously set as a dictionary.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_pickle_finalize_controller" class="summary-sig-name" onclick="show_private();">_pickle_finalize_controller</a>(<span class="summary-sig-arg">data</span>,
+        <span class="summary-sig-arg">world</span>)</span><br />
+      Finalize a controller.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_controller">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_pickle_finalize_joint" class="summary-sig-name" onclick="show_private();">_pickle_finalize_joint</a>(<span class="summary-sig-arg">data</span>,
+        <span class="summary-sig-arg">world</span>)</span><br />
+      Finalize a joint.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_joint">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_pickle_finalize_shapelist" class="summary-sig-name" onclick="show_private();">_pickle_finalize_shapelist</a>(<span class="summary-sig-arg">world</span>,
+        <span class="summary-sig-arg">body</span>,
+        <span class="summary-sig-arg">shapelist</span>)</span><br />
+      Finalize the shape list for a body.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_shapelist">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_finalize_world"></a><span class="summary-sig-name">_pickle_finalize_world</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Finalize a b2World.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_world">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#_pickle_body_getstate" class="summary-sig-name" onclick="show_private();">_pickle_body_getstate</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Everything is essentially generic_getstate,
+ except for edge shape handling.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_body_getstate">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_get_b2world"></a><span class="summary-sig-name">_pickle_get_b2world</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Get the state of the world.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_get_b2world">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_get_controller"></a><span class="summary-sig-name">_pickle_get_controller</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">world</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Get the state of a controller</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_get_controller">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="_pickle_get_joint"></a><span class="summary-sig-name">_pickle_get_joint</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">world</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Get the state of a joint.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_get_joint">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2ShapeCompare"></a><span class="summary-sig-name">b2ShapeCompare</span>(<span class="summary-sig-arg">a</span>,
+        <span class="summary-sig-arg">b</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2ShapeCompare">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2BodyCompare"></a><span class="summary-sig-name">b2BodyCompare</span>(<span class="summary-sig-arg">a</span>,
+        <span class="summary-sig-arg">b</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2BodyCompare">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2JointCompare"></a><span class="summary-sig-name">b2JointCompare</span>(<span class="summary-sig-arg">a</span>,
+        <span class="summary-sig-arg">b</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2JointCompare">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2ControllerCompare"></a><span class="summary-sig-name">b2ControllerCompare</span>(<span class="summary-sig-arg">a</span>,
+        <span class="summary-sig-arg">b</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2ControllerCompare">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Alloc" class="summary-sig-name">b2Alloc</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Alloc(int32 size) -&gt; void</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Alloc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Free" class="summary-sig-name">b2Free</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Free(void mem)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Free">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2MixFriction" class="summary-sig-name">b2MixFriction</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2MixFriction(float32 friction1, float32 friction2) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MixFriction">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2MixRestitution" class="summary-sig-name">b2MixRestitution</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2MixRestitution(float32 restitution1, float32 restitution2) -&gt; 
+      float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MixRestitution">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2IsValid" class="summary-sig-name">b2IsValid</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2IsValid(float32 x) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2IsValid">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2InvSqrt" class="summary-sig-name">b2InvSqrt</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2InvSqrt(float32 x) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2InvSqrt">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2equ"></a><span class="summary-sig-name">b2equ</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2equ(b2Vec2 a, b2Vec2 b) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2equ">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2DistanceSquared"></a><span class="summary-sig-name">b2DistanceSquared</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2DistanceSquared(b2Vec2 a, b2Vec2 b) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2DistanceSquared">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Min"></a><span class="summary-sig-name">b2Min</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Min(b2Vec2 a, b2Vec2 b) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Min">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Max"></a><span class="summary-sig-name">b2Max</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Max(b2Vec2 a, b2Vec2 b) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Max">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Clamp"></a><span class="summary-sig-name">b2Clamp</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Clamp(b2Vec2 a, b2Vec2 low, b2Vec2 high) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Clamp">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2NextPowerOfTwo" class="summary-sig-name">b2NextPowerOfTwo</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2NextPowerOfTwo(uint32 x) -&gt; uint32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2NextPowerOfTwo">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2IsPowerOfTwo"></a><span class="summary-sig-name">b2IsPowerOfTwo</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2IsPowerOfTwo(uint32 x) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2IsPowerOfTwo">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2mul"></a><span class="summary-sig-name">b2mul</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2mul(float32 s, b2Vec2 a) -&gt; b2Vec2 b2mul(float32 s, b2Vec3 a) 
+      -&gt; b2Vec3</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2mul">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2sub"></a><span class="summary-sig-name">b2sub</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2sub(b2Vec2 a, b2Vec2 b) -&gt; b2Vec2 b2sub(b2Vec3 a, b2Vec3 b) 
+      -&gt; b2Vec3</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2sub">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Dot" class="summary-sig-name">b2Dot</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Dot(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Dot(b2Vec3 a, b2Vec3 b) 
+      -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Dot">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Cross" class="summary-sig-name">b2Cross</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Cross(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Cross(b2Vec2 a, float32 
+      s) -&gt; b2Vec2 b2Cross(float32 s, b2Vec2 a) -&gt; b2Vec2 
+      b2Cross(b2Vec3 a, b2Vec3 b) -&gt; b2Vec3</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Cross">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2add"></a><span class="summary-sig-name">b2add</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2add(b2Vec2 a, b2Vec2 b) -&gt; b2Vec2 b2add(b2Vec3 a, b2Vec3 b) 
+      -&gt; b2Vec3 b2add(b2Mat22 A, b2Mat22 B) -&gt; b2Mat22</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2add">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Mul" class="summary-sig-name">b2Mul</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Mul(b2Mat22 A, b2Vec2 v) -&gt; b2Vec2 b2Mul(b2Mat22 A, b2Mat22 B) 
+      -&gt; b2Mat22 b2Mul(b2Mat33 A, b2Vec3 v) -&gt; b2Vec3 b2Mul(b2XForm 
+      T, b2Vec2 v) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Mul">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2MulT" class="summary-sig-name">b2MulT</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2MulT(b2Mat22 A, b2Vec2 v) -&gt; b2Vec2 b2MulT(b2Mat22 A, b2Mat22 B)
+      -&gt; b2Mat22 b2MulT(b2XForm T, b2Vec2 v) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MulT">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Abs"></a><span class="summary-sig-name">b2Abs</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Abs(float32 a) -&gt; float32 b2Abs(b2Vec2 a) -&gt; b2Vec2 
+      b2Abs(b2Mat22 A) -&gt; b2Mat22</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Abs">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__b2ComputeCentroid"></a><span class="summary-sig-name">__b2ComputeCentroid</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      __b2ComputeCentroid(b2Vec2 vs, int32 count) -&gt; b2Vec2</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#__b2ComputeCentroid">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__b2ComputeOBB"></a><span class="summary-sig-name">__b2ComputeOBB</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      __b2ComputeOBB(b2OBB obb, b2Vec2 vs, int32 count) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#__b2ComputeOBB">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2PythonComputeCentroid" class="summary-sig-name">b2PythonComputeCentroid</a>(<span class="summary-sig-arg">pd</span>)</span><br />
+      Computes the centroid of the polygon shape definition, pd.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2PythonComputeCentroid">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#collideCircleParticle" class="summary-sig-name">collideCircleParticle</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      collideCircleParticle(b2CircleShape circle, b2Vec2 ppos) -&gt; 
+      PyObject</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#collideCircleParticle">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2CollidePolyParticle" class="summary-sig-name">b2CollidePolyParticle</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2CollidePolyParticle(b2PolygonShape polygon, b2Vec2 ppos, float32 
+      pradius) -&gt; PyObject</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolyParticle">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2PythonCheckPolygonDef" class="summary-sig-name">b2PythonCheckPolygonDef</a>(<span class="summary-sig-arg">pd</span>)</span><br />
+      Checks the Polygon definition to see if upon creation it will cause 
+      an assertion.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2PythonCheckPolygonDef">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Distance" class="summary-sig-name">b2Distance</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Distance(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Distance(b2Shape 
+      shape1, b2XForm xf1, b2Shape shape2, b2XForm xf2) -&gt; PyObject</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Distance">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2AABBOverlaps" class="summary-sig-name">b2AABBOverlaps</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2AABBOverlaps(b2AABB aabb, b2Vec2 point) -&gt; bool
+b2AABBOverlaps(b2AABB aabb, b2AABB aabb2) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2AABBOverlaps">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2CheckPolygonDef" class="summary-sig-name">b2CheckPolygonDef</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2CheckPolygonDef(b2PolygonDef poly, bool additional_checks = True) 
+      -&gt; bool b2CheckPolygonDef(b2PolygonDef poly) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CheckPolygonDef">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">float32</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Random" class="summary-sig-name">b2Random</a>()</span><br />
+      b2Random(float32 lo, float32 hi) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Random">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2CollideCircles" class="summary-sig-name">b2CollideCircles</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2CollideCircles(b2Manifold manifold, b2CircleShape circle1, b2XForm xf1, 
+    b2CircleShape circle2, b2XForm xf2)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollideCircles">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2CollidePolygonAndCircle" class="summary-sig-name">b2CollidePolygonAndCircle</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2CollidePolygonAndCircle(b2Manifold manifold, b2PolygonShape polygon, b2XForm xf1, 
+    b2CircleShape circle, b2XForm xf2)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolygonAndCircle">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2CollidePolygons" class="summary-sig-name">b2CollidePolygons</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2CollidePolygons(b2Manifold manifold, b2PolygonShape polygon1, b2XForm xf1, 
+    b2PolygonShape polygon2, b2XForm xf2)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolygons">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#__b2Distance__" class="summary-sig-name">__b2Distance__</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      __b2Distance__(b2Vec2 x1, b2Vec2 x2, b2Shape shape1, b2XForm xf1, 
+    b2Shape shape2, b2XForm xf2) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#__b2Distance__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2TimeOfImpact" class="summary-sig-name">b2TimeOfImpact</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2TimeOfImpact(b2Shape shape1, b2Sweep sweep1, b2Shape shape2, 
+      b2Sweep sweep2) -&gt; float32</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2TimeOfImpact">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2TestOverlap"></a><span class="summary-sig-name">b2TestOverlap</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2TestOverlap(b2AABB a, b2AABB b) -&gt; bool</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2TestOverlap">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="pybox2d.Box2D-module.html#b2Contact_AddType" class="summary-sig-name">b2Contact_AddType</a>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Contact_AddType(b2ContactCreateFcn createFcn, b2ContactDestroyFcn destroyFcn, ...</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Contact_AddType">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Contact_InitializeRegisters"></a><span class="summary-sig-name">b2Contact_InitializeRegisters</span>()</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Contact_InitializeRegisters">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Contact_Create"></a><span class="summary-sig-name">b2Contact_Create</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Contact_Create(b2Shape shape1, b2Shape shape2, b2BlockAllocator 
+      allocator) -&gt; b2Contact</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Contact_Create">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="b2Contact_Destroy"></a><span class="summary-sig-name">b2Contact_Destroy</span>(<span class="summary-sig-arg">*args</span>)</span><br />
+      b2Contact_Destroy(b2Contact contact, b2BlockAllocator allocator)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Contact_Destroy">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr class="private">
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="_newclass"></a><span class="summary-name">_newclass</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="cvar"></a><span class="summary-name">cvar</span> = <code title="&lt;Swig global variables&gt;">&lt;Swig global variables&gt;</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_pi"></a><span class="summary-name">b2_pi</span> = <code title="3.14159274101">3.14159274101</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxManifoldPoints"></a><span class="summary-name">b2_maxManifoldPoints</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxPolygonVertices"></a><span class="summary-name">b2_maxPolygonVertices</span> = <code title="16">16</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxProxies"></a><span class="summary-name">b2_maxProxies</span> = <code title="1024">1024</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxPairs"></a><span class="summary-name">b2_maxPairs</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_linearSlop"></a><span class="summary-name">b2_linearSlop</span> = <code title="0.00499999988824">0.00499999988824</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_angularSlop"></a><span class="summary-name">b2_angularSlop</span> = <code title="0.0349065884948">0.0349065884948</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_toiSlop"></a><span class="summary-name">b2_toiSlop</span> = <code title="0.0399999991059">0.0399999991059</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxTOIContactsPerIsland"></a><span class="summary-name">b2_maxTOIContactsPerIsland</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxTOIJointsPerIsland"></a><span class="summary-name">b2_maxTOIJointsPerIsland</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_velocityThreshold"></a><span class="summary-name">b2_velocityThreshold</span> = <code title="1.0">1.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxLinearCorrection"></a><span class="summary-name">b2_maxLinearCorrection</span> = <code title="0.20000000298">0.20000000298</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxAngularCorrection"></a><span class="summary-name">b2_maxAngularCorrection</span> = <code title="0.139626353979">0.139626353979</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxLinearVelocity"></a><span class="summary-name">b2_maxLinearVelocity</span> = <code title="200.0">200.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxLinearVelocitySquared"></a><span class="summary-name">b2_maxLinearVelocitySquared</span> = <code title="40000.0">40000.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxAngularVelocity"></a><span class="summary-name">b2_maxAngularVelocity</span> = <code title="250.0">250.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxAngularVelocitySquared"></a><span class="summary-name">b2_maxAngularVelocitySquared</span> = <code title="62500.0">62500.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_contactBaumgarte"></a><span class="summary-name">b2_contactBaumgarte</span> = <code title="0.20000000298">0.20000000298</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_timeToSleep"></a><span class="summary-name">b2_timeToSleep</span> = <code title="0.5">0.5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_linearSleepTolerance"></a><span class="summary-name">b2_linearSleepTolerance</span> = <code title="0.00999999977648">0.00999999977648</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_angularSleepTolerance"></a><span class="summary-name">b2_angularSleepTolerance</span> = <code title="0.0111111113802">0.0111111113802</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_unknownJoint"></a><span class="summary-name">e_unknownJoint</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_revoluteJoint"></a><span class="summary-name">e_revoluteJoint</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_prismaticJoint"></a><span class="summary-name">e_prismaticJoint</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_distanceJoint"></a><span class="summary-name">e_distanceJoint</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_pulleyJoint"></a><span class="summary-name">e_pulleyJoint</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_mouseJoint"></a><span class="summary-name">e_mouseJoint</span> = <code title="5">5</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_gearJoint"></a><span class="summary-name">e_gearJoint</span> = <code title="6">6</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_lineJoint"></a><span class="summary-name">e_lineJoint</span> = <code title="7">7</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_inactiveLimit"></a><span class="summary-name">e_inactiveLimit</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_atLowerLimit"></a><span class="summary-name">e_atLowerLimit</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_atUpperLimit"></a><span class="summary-name">e_atUpperLimit</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_equalLimits"></a><span class="summary-name">e_equalLimits</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2Vec2_zero"></a><span class="summary-name">b2Vec2_zero</span> = <code title="b2Vec2(0,0)">b2Vec2(0,0)</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="pybox2d.Box2D-module.html#b2Mat22_identity" class="summary-name">b2Mat22_identity</a> = <code title="b2Mat22(
+       col1       = b2Vec2(1,0),
+       col2       = b2Vec2(0,1),
+       GetAngle() = 0.0)">b2Mat<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="pybox2d.Box2D-module.html#b2XForm_identity" class="summary-name">b2XForm_identity</a> = <code title="b2XForm(
+       R        = b2Mat22(
+       col1       = b2Vec2(1,0),
+       col2       = b2Vec2(0,1),
+       GetAngle() = 0.0),
+       position = b2Vec2(0,0))">b2XFo<code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="RAND_LIMIT"></a><span class="summary-name">RAND_LIMIT</span> = <code title="32767">32767</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="B2_FLT_EPSILON"></a><span class="summary-name">B2_FLT_EPSILON</span> = <code title="1.192092896e-07">1.192092896e-07</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="FLT_EPSILON"></a><span class="summary-name">FLT_EPSILON</span> = <code title="1.192092896e-07">1.192092896e-07</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="B2_FLT_MAX"></a><span class="summary-name">B2_FLT_MAX</span> = <code title="3.402823466e+38">3.402823466e+38</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="pybox2d.Box2D-module.html#cvars" class="summary-name">cvars</a> = <code title="('b2_minPulleyLength',
+ 'b2Contact_s_initialized',
+ 'b2Contact_s_registers',
+ 'b2_maxStackEntries',
+ 'b2_stackSize',
+ 'b2_chunkArrayIncrement',
+ 'b2_blockSizes',
+ 'b2_maxBlockSize',
+..."><code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">b2_minPulleyLength</code><code class="variable-quote">'</code><code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">b2Contact_s_initialized</code><code class="variable-quote">'</code><code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">b2C</code><code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_nullFeature"></a><span class="summary-name">b2_nullFeature</span> = <code title="255">255</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_unknownShape"></a><span class="summary-name">e_unknownShape</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_circleShape"></a><span class="summary-name">e_circleShape</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_polygonShape"></a><span class="summary-name">e_polygonShape</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_edgeShape"></a><span class="summary-name">e_edgeShape</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_shapeTypeCount"></a><span class="summary-name">e_shapeTypeCount</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_startsInsideCollide"></a><span class="summary-name">e_startsInsideCollide</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_missCollide"></a><span class="summary-name">e_missCollide</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_hitCollide"></a><span class="summary-name">e_hitCollide</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_nullPair"></a><span class="summary-name">b2_nullPair</span> = <code title="65535">65535</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_nullProxy"></a><span class="summary-name">b2_nullProxy</span> = <code title="65535">65535</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_tableCapacity"></a><span class="summary-name">b2_tableCapacity</span> = <code title="8192">8192</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_tableMask"></a><span class="summary-name">b2_tableMask</span> = <code title="8191">8191</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_invalid"></a><span class="summary-name">b2_invalid</span> = <code title="65535">65535</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_nullEdge"></a><span class="summary-name">b2_nullEdge</span> = <code title="65535">65535</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_chunkSize"></a><span class="summary-name">b2_chunkSize</span> = <code title="4096">4096</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxBlockSize"></a><span class="summary-name">b2_maxBlockSize</span> = <code title="640">640</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_blockSizes"></a><span class="summary-name">b2_blockSizes</span> = <code title="14">14</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_chunkArrayIncrement"></a><span class="summary-name">b2_chunkArrayIncrement</span> = <code title="128">128</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_stackSize"></a><span class="summary-name">b2_stackSize</span> = <code title="102400">102400</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_maxStackEntries"></a><span class="summary-name">b2_maxStackEntries</span> = <code title="32">32</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_unknownController"></a><span class="summary-name">e_unknownController</span> = <code title="-1">-1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_buoyancyController"></a><span class="summary-name">e_buoyancyController</span> = <code title="0">0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_constantAccelController"></a><span class="summary-name">e_constantAccelController</span> = <code title="1">1</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_constantForceController"></a><span class="summary-name">e_constantForceController</span> = <code title="2">2</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_gravityController"></a><span class="summary-name">e_gravityController</span> = <code title="3">3</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="e_tensorDampingController"></a><span class="summary-name">e_tensorDampingController</span> = <code title="4">4</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="b2_minPulleyLength"></a><span class="summary-name">b2_minPulleyLength</span> = <code title="2.0">2.0</code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'pybox2d'"><code class="variable-quote">'</code><code class="variable-string">pybox2d</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="_pickle_fix_value_save"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_pickle_fix_value_save</span>(<span class="sig-arg">lists</span>,
+        <span class="sig-arg">value</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_fix_value_save">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Fixes: b2Body, b2Shape, b2Joint, b2Controller</p>
+  <p>In place of an unpicklable b2Body outside of a world, use a dictionary
+  with an index to the appropriate place in the world.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="pickle_fix"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">pickle_fix</span>(<span class="sig-arg">world</span>,
+        <span class="sig-arg">var</span>,
+        <span class="sig-arg">func</span>=<span class="sig-default"><code class="variable-quote">'</code><code class="variable-string">save</code><code class="variable-quote">'</code></span>,
+        <span class="sig-arg">lists</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#pickle_fix">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+Fix variables so that they may be pickled (or loaded from a pickled state).
+You cannot save a b2Body by itself, but if passed in with the world, it's possible
+to pickle it.
+
+So, be sure to use this on your box2d-related variables before and after pickling.
+
+e.g.,
++ Save:
+  my_pickled_vars = box2d.pickle_fix(myworld, my_vars, 'save')
+  pickle.dump([myworld, my_pickled_vars], open(fn, 'wb'))
+
++ Load
+  world, my_pickled_vars = pickle.load(open(fn, 'rb'))
+  myworld = world._pickle_finalize()
+  my_vars=box2d.pickle_fix(myworld, my_pickled_vars, 'load')
+
+For an actual implementation of pickling, see the testbed (main test and test_pickle).
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_generic_getstate"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_generic_getstate</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">additional_ignore</span>=<span class="sig-default"><code class="variable-group">[</code><code class="variable-group">]</code></span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_generic_getstate">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+Returns a dictionary representation of self, with 
+ dict(var=value [, ...])
+
+additional_ignore can be specified to ignore certain
+properties. 
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_pickle_finalize_controller"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_pickle_finalize_controller</span>(<span class="sig-arg">data</span>,
+        <span class="sig-arg">world</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_controller">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Finalize a controller. It's mostly standard, just requires a custom 
+  bodyList.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_pickle_finalize_joint"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_pickle_finalize_joint</span>(<span class="sig-arg">data</span>,
+        <span class="sig-arg">world</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_joint">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Finalize a joint. The bodies and joints need to be retrieved from the 
+  world list in order to make the joint.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_pickle_finalize_shapelist"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_pickle_finalize_shapelist</span>(<span class="sig-arg">world</span>,
+        <span class="sig-arg">body</span>,
+        <span class="sig-arg">shapelist</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_finalize_shapelist">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Finalize the shape list for a body. Only reason this has to be 
+  implemented separately is because of the way edge chains are 
+  implemented.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="_pickle_body_getstate"></a>
+<div class="private">
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">_pickle_body_getstate</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#_pickle_body_getstate">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+Everything is essentially generic_getstate,
+ except for edge shape handling.
+
+TODO: I can see a possible issue in this if joints are used on
+an edge shape or a body with edge shapes and other shapes.
+The shape list order could be improperly recreated. We'll see
+if anything happens...
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Alloc"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Alloc</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Alloc">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Alloc(int32 size) -&gt; void</p>
+  <p>Implement this function to use your own memory allocator.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Free"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Free</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Free">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Free(void mem)</p>
+  <p>If you implement b2Alloc, you should also implement this function.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2MixFriction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2MixFriction</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MixFriction">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2MixFriction(float32 friction1, float32 friction2) -&gt; float32</p>
+  <p>Friction mixing law. Feel free to customize this.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2MixRestitution"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2MixRestitution</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MixRestitution">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2MixRestitution(float32 restitution1, float32 restitution2) -&gt; 
+  float32</p>
+  <p>Restitution mixing law. Feel free to customize this.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2IsValid"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2IsValid</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2IsValid">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2IsValid(float32 x) -&gt; bool</p>
+  <p>This function is used to ensure that a floating point number is not a 
+  NaN or infinity.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2InvSqrt"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2InvSqrt</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2InvSqrt">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2InvSqrt(float32 x) -&gt; float32</p>
+  <p>This is a approximate yet fast inverse square-root.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2NextPowerOfTwo"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2NextPowerOfTwo</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2NextPowerOfTwo">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2NextPowerOfTwo(uint32 x) -&gt; uint32</p>
+  <p>&quot;Next Largest Power of 2 Given a binary integer value x, the next
+  largest power of 2 can be computed by a SWAR algorithm that recursively 
+  &quot;folds&quot; the upper bits into the lower bits. This process yields
+  a bit vector with the same most significant 1 as x, but all 1's below it.
+  Adding 1 to that value yields the next largest power of 2. For a 32-bit 
+  value:&quot;</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Dot"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Dot</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Dot">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Dot(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Dot(b2Vec3 a, b2Vec3 b) 
+  -&gt; float32</p>
+  <p>Perform the dot product on two vectors.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Cross"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Cross</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Cross">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Cross(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Cross(b2Vec2 a, float32 s)
+  -&gt; b2Vec2 b2Cross(float32 s, b2Vec2 a) -&gt; b2Vec2 b2Cross(b2Vec3 a, 
+  b2Vec3 b) -&gt; b2Vec3</p>
+  <p>Perform the cross product on two vectors.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Mul"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Mul</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Mul">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Mul(b2Mat22 A, b2Vec2 v) -&gt; b2Vec2 b2Mul(b2Mat22 A, b2Mat22 B) 
+  -&gt; b2Mat22 b2Mul(b2Mat33 A, b2Vec3 v) -&gt; b2Vec3 b2Mul(b2XForm T, 
+  b2Vec2 v) -&gt; b2Vec2</p>
+  <p>Multiply a matrix times a vector.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2MulT"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2MulT</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2MulT">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2MulT(b2Mat22 A, b2Vec2 v) -&gt; b2Vec2 b2MulT(b2Mat22 A, b2Mat22 B) 
+  -&gt; b2Mat22 b2MulT(b2XForm T, b2Vec2 v) -&gt; b2Vec2</p>
+  <p>Multiply a matrix transpose times a vector. If a rotation matrix is 
+  provided, then this transforms the vector from one frame to another 
+  (inverse transform).</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2PythonComputeCentroid"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2PythonComputeCentroid</span>(<span class="sig-arg">pd</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2PythonComputeCentroid">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Computes the centroid of the polygon shape definition, pd. Raises 
+  ValueError on an invalid vertex count or a small area.</p>
+  <p>Ported from the Box2D C++ code.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="collideCircleParticle"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">collideCircleParticle</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#collideCircleParticle">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>collideCircleParticle(b2CircleShape circle, b2Vec2 ppos) -&gt; 
+  PyObject</p>
+  <p>For liquid simulation. Checks if a particle would collide with the 
+  specified circle.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2CollidePolyParticle"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2CollidePolyParticle</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolyParticle">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2CollidePolyParticle(b2PolygonShape polygon, b2Vec2 ppos, float32 
+  pradius) -&gt; PyObject</p>
+  <p>For liquid simulation. Checks if a particle would collide with the 
+  specified polygon.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2PythonCheckPolygonDef"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2PythonCheckPolygonDef</span>(<span class="sig-arg">pd</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2PythonCheckPolygonDef">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Checks the Polygon definition to see if upon creation it will cause an
+  assertion. Raises ValueError if an assertion would be raised.</p>
+  <p>Ported from the Box2D C++ code for CreateShape(). The C++ version is 
+  now included as it's more accurate, please use b2CheckPolygonDef 
+  instead.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Distance"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Distance</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Distance">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Distance(b2Vec2 a, b2Vec2 b) -&gt; float32 b2Distance(b2Shape 
+  shape1, b2XForm xf1, b2Shape shape2, b2XForm xf2) -&gt; PyObject</p>
+  <p>Compute the distance between two shapes and the closest points. the 
+  distance between the shapes or zero if they are overlapped/touching.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2AABBOverlaps"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2AABBOverlaps</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2AABBOverlaps">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+b2AABBOverlaps(b2AABB aabb, b2Vec2 point) -&gt; bool
+b2AABBOverlaps(b2AABB aabb, b2AABB aabb2) -&gt; bool
+
+Checks if two AABBs overlap, or if a point
+    lies in an AABB
+    
+    b2AABBOverlaps(AABB1, [AABB2/point])
+    
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2CheckPolygonDef"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2CheckPolygonDef</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CheckPolygonDef">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2CheckPolygonDef(b2PolygonDef poly, bool additional_checks = True) 
+  -&gt; bool b2CheckPolygonDef(b2PolygonDef poly) -&gt; bool</p>
+  <p>Checks the Polygon definition to see if upon creation it will cause an
+  assertion. Raises ValueError if an assertion would be raised.</p>
+  <p>b2PolygonDef* poly     - the polygon definition bool additional_checks
+  - whether or not to run additional checks</p>
+  <p>Additional checking: usually only in DEBUG mode on the C++ code.</p>
+  <p>While shapes that pass this test can be created without assertions, 
+  they will ultimately create unexpected behavior. It's recommended to 
+  _not_ use any polygon that fails this test.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Random"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Random</span>()</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Random">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2Random(float32 lo, float32 hi) -&gt; float32</p>
+  <p>Random floating point number in range [lo, hi]. With no arguments, 
+  returns one in -1,1.</p>
+  <dl class="fields">
+    <dt>Returns: float32</dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2CollideCircles"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2CollideCircles</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollideCircles">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+b2CollideCircles(b2Manifold manifold, b2CircleShape circle1, b2XForm xf1, 
+    b2CircleShape circle2, b2XForm xf2)
+
+Compute the collision manifold between two circles.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2CollidePolygonAndCircle"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2CollidePolygonAndCircle</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolygonAndCircle">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+b2CollidePolygonAndCircle(b2Manifold manifold, b2PolygonShape polygon, b2XForm xf1, 
+    b2CircleShape circle, b2XForm xf2)
+
+Compute the collision manifold between a polygon and a circle.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2CollidePolygons"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2CollidePolygons</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2CollidePolygons">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+b2CollidePolygons(b2Manifold manifold, b2PolygonShape polygon1, b2XForm xf1, 
+    b2PolygonShape polygon2, b2XForm xf2)
+
+Compute the collision manifold between two circles.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="__b2Distance__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__b2Distance__</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#__b2Distance__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+__b2Distance__(b2Vec2 x1, b2Vec2 x2, b2Shape shape1, b2XForm xf1, 
+    b2Shape shape2, b2XForm xf2) -&gt; float32
+
+Compute the distance between two shapes and the closest points. 
+the distance between the shapes or zero if they are overlapped/touching.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2TimeOfImpact"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2TimeOfImpact</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2TimeOfImpact">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>b2TimeOfImpact(b2Shape shape1, b2Sweep sweep1, b2Shape shape2, b2Sweep
+  sweep2) -&gt; float32</p>
+  <p>Compute the time when two shapes begin to touch or touch at a closer 
+  distance. WARNING: the sweeps must have the same time interval.</p>
+  <p>the fraction between [0,1] in which the shapes first touch. fraction=0
+  means the shapes begin touching/overlapped, and fraction=1 means the 
+  shapes don't touch.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2Contact_AddType"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">b2Contact_AddType</span>(<span class="sig-arg">*args</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="pybox2d.Box2D-pysrc.html#b2Contact_AddType">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+
+b2Contact_AddType(b2ContactCreateFcn createFcn, b2ContactDestroyFcn destroyFcn, 
+    b2ShapeType type1, b2ShapeType type2)
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== VARIABLES DETAILS ==================== -->
+<a name="section-VariablesDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-VariablesDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="b2Mat22_identity"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">b2Mat22_identity</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+b2Mat22(
+       col1       = b2Vec2(1,0),
+       col2       = b2Vec2(0,1),
+       GetAngle() = 0.0)
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="b2XForm_identity"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">b2XForm_identity</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+b2XForm(
+       R        = b2Mat22(
+       col1       = b2Vec2(1,0),
+       col2       = b2Vec2(0,1),
+       GetAngle() = 0.0),
+       position = b2Vec2(0,0))
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="cvars"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">cvars</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">b2_minPulleyLength</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2Contact_s_initialized</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2Contact_s_registers</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2_maxStackEntries</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2_stackSize</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2_chunkArrayIncrement</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2_blockSizes</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">b2_maxBlockSize</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            ><a class="navbar" target="_top" href="http://code.google.com/p/pybox2d/">pybox2d</a></th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1
+    on Tue Feb 24 18:39:58 2009
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>
